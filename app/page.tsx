@@ -32,7 +32,7 @@ export default function Home() {
           </Link>
           <div className="flex items-center gap-3">
             <Link
-              href="https://github.com/getlate-dev/zernflow"
+              href="https://github.com/zernio-dev/zernflow"
               target="_blank"
               rel="noopener noreferrer"
               className="hidden items-center gap-1.5 rounded-lg px-3 py-2 text-sm text-gray-500 hover:text-gray-900 sm:inline-flex"
@@ -62,7 +62,7 @@ export default function Home() {
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-indigo-100 bg-indigo-50 px-4 py-1.5">
             <span className="text-xs font-medium text-indigo-700">MIT Licensed</span>
             <Link
-              href="https://github.com/getlate-dev/zernflow"
+              href="https://github.com/zernio-dev/zernflow"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1 text-xs font-medium text-indigo-500 hover:text-indigo-700"
@@ -87,7 +87,7 @@ export default function Home() {
               <ArrowRight className="h-3.5 w-3.5" />
             </Link>
             <Link
-              href="https://github.com/getlate-dev/zernflow"
+              href="https://github.com/zernio-dev/zernflow"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex w-full items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white px-6 py-3 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50 sm:w-auto"
@@ -330,7 +330,7 @@ export default function Home() {
               </p>
               <div className="mt-6">
                 <Link
-                  href="https://github.com/getlate-dev/zernflow"
+                  href="https://github.com/zernio-dev/zernflow"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-sm font-medium text-indigo-600 hover:text-indigo-700"
@@ -458,7 +458,7 @@ export default function Home() {
                   <ArrowRight className="h-3.5 w-3.5" />
                 </Link>
                 <Link
-                  href="https://github.com/getlate-dev/zernflow"
+                  href="https://github.com/zernio-dev/zernflow"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 rounded-lg border border-indigo-400 px-6 py-3 text-sm font-medium text-white hover:bg-indigo-500"
@@ -479,7 +479,7 @@ export default function Home() {
             <span className="text-sm text-gray-400">ZernFlow</span>
             <span className="text-sm text-gray-300">|</span>
             <Link
-              href="https://github.com/getlate-dev/zernflow"
+              href="https://github.com/zernio-dev/zernflow"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1 text-sm text-gray-400 hover:text-gray-600"
@@ -488,12 +488,12 @@ export default function Home() {
               GitHub
             </Link>
             <Link
-              href="https://getlate.dev"
+              href="https://zernio.com"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm text-gray-400 hover:text-gray-600"
             >
-              Powered by Late
+              Powered by Zernio
             </Link>
           </div>
           <p className="text-xs text-gray-400">

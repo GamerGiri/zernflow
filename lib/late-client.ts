@@ -1,5 +1,5 @@
 /**
- * Late API client.
+ * Zernio API client.
  *
  * Thin wrapper around the official @getlatedev/node SDK.
  * All endpoints are auto-generated from the OpenAPI spec.

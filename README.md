@@ -11,7 +11,7 @@ The open-source ManyChat alternative. Visual flow builder for Instagram, Faceboo
 
 ZernFlow is an open-source alternative to ManyChat. Build visual chatbot flows, manage contacts, send broadcasts, run drip campaigns, and handle live chat conversations across 6 social media platforms.
 
-**Powered by [Late](https://getlate.dev)** for OAuth, token refresh, rate limiting, and cross-platform messaging.
+**Powered by [Zernio](https://zernio.com)** for OAuth, token refresh, rate limiting, and cross-platform messaging.
 
 ### Features
 
@@ -23,7 +23,7 @@ ZernFlow is an open-source alternative to ManyChat. Build visual chatbot flows, 
 - **Sequences** - Drip campaigns with timed message series and automatic enrollment
 - **Team Management** - Invite members, assign roles, manage permissions
 - **Multi-Platform** - Instagram, Facebook, Telegram, Twitter/X, Bluesky, Reddit
-- **Connect Channels** - OAuth connection flow directly from ZernFlow (powered by Late)
+- **Connect Channels** - OAuth connection flow directly from ZernFlow (powered by Zernio)
 - **Rich Messaging** - Buttons, quick replies, and carousel cards
 - **Comment-to-DM** - Automatically DM users who comment specific keywords
 - **Growth Tools** - Conversation starter links for each connected platform
@@ -36,7 +36,7 @@ ZernFlow is an open-source alternative to ManyChat. Build visual chatbot flows, 
 
 - Node.js 18+
 - A [Supabase](https://supabase.com) project (free tier works)
-- A [Late](https://getlate.dev) API key (entered in Settings after setup)
+- A [Zernio](https://zernio.com) API key (entered in Settings after setup)
 - A [Vercel AI Gateway](https://vercel.com/ai-gateway) key (optional, for AI node, entered in Settings or env)
 
 ### Setup
@@ -44,7 +44,7 @@ ZernFlow is an open-source alternative to ManyChat. Build visual chatbot flows, 
 1. **Clone the repo**
 
 ```bash
-git clone https://github.com/getlate-dev/zernflow.git
+git clone https://github.com/zernio-dev/zernflow.git
 cd zernflow
 npm install
 ```
@@ -73,7 +73,7 @@ CRON_SECRET=your-cron-secret              # For sequence processor + job schedul
 # AI_GATEWAY_API_KEY=...                  # Optional, for self-hosted (Vercel handles this automatically)
 ```
 
-After starting the app, go to **Settings** to enter your Late API key and (optionally) AI Gateway key.
+After starting the app, go to **Settings** to enter your Zernio API key and (optionally) AI Gateway key.
 
 4. **Run**
 
@@ -97,7 +97,7 @@ Recv.  Engine     Chat           Processor
    |    |    |    |    |    |
    +----+----+----+----+----+
         |         |         |
-    Supabase   Late API   AI SDK
+    Supabase   Zernio API AI SDK
   (PG + Auth   (6 platforms) (OpenAI /
   + Realtime)              Anthropic /
                            Google)
@@ -113,7 +113,7 @@ Recv.  Engine     Chat           Processor
 | AI | Vercel AI SDK + [AI Gateway](https://vercel.com/ai-gateway) |
 | UI | Tailwind CSS 4 |
 | Icons | @icons-pack/react-simple-icons |
-| Messaging | [Late API](https://getlate.dev) |
+| Messaging | [Zernio API](https://zernio.com) |
 
 ## Flow Node Types
 

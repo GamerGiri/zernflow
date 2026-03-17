@@ -103,7 +103,7 @@ export function SettingsView({
     } catch {
       setTestResult({
         success: false,
-        error: "Could not reach the Late API. Please check your network connection.",
+        error: "Could not reach the Zernio API. Please check your network connection.",
       });
     } finally {
       setTesting(false);
@@ -195,31 +195,31 @@ export function SettingsView({
           <section>
             <div className="flex items-center gap-2">
               <Key className="h-4 w-4 text-muted-foreground" />
-              <h2 className="text-sm font-semibold">Late API Key</h2>
+              <h2 className="text-sm font-semibold">Zernio API Key</h2>
             </div>
             <p className="mt-1 text-xs text-muted-foreground">
-              Your Late API key is used to connect with social media platforms.
+              Your Zernio API key is used to connect with social media platforms.
               {workspace.hasApiKey && " A key is currently configured."}
             </p>
             <p className="mt-1.5 text-xs text-muted-foreground">
               You can get your API key from your{" "}
               <a
-                href="https://getlate.dev/dashboard/settings/api"
+                href="https://zernio.com/dashboard/settings/api"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-0.5 text-primary underline underline-offset-2 hover:opacity-80"
               >
-                Late dashboard
+                Zernio dashboard
                 <ExternalLink className="h-3 w-3" />
               </a>
               . Sign up at{" "}
               <a
-                href="https://getlate.dev"
+                href="https://zernio.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary underline underline-offset-2 hover:opacity-80"
               >
-                getlate.dev
+                zernio.com
               </a>{" "}
               if you don&apos;t have an account yet.
             </p>
@@ -236,7 +236,7 @@ export function SettingsView({
                 placeholder={
                   workspace.hasApiKey
                     ? "Enter a new key to replace the current one"
-                    : "Enter your Late API key"
+                    : "Enter your Zernio API key"
                 }
                 className="w-full rounded-lg border border-input bg-background px-3 py-2 pr-10 text-sm font-mono placeholder:text-muted-foreground placeholder:font-sans focus:outline-none focus:ring-2 focus:ring-ring"
               />
